@@ -1,4 +1,4 @@
-// This sorting function will catagorize a list of numbers into three groups: larger, smaller, and equal to a sepcific value. 
+// This sorting function will catagorize a list of numbers into three groups: larger, smaller, and equal to a sepcific value.
 // Requires [main] to input a list of numbers and a middle value.
 #include <iostream>
 using namespace std;
@@ -45,22 +45,22 @@ void split_list(int size, int *list, int value)
     }
 
     cout << "smaller than middle value: " << "\n";
-    for (int i = 0; i < x; i++) 
-    {  
-        cout << smaller[i] << "\n";    
-    } 
+    for (int i = 0; i < x; i++)
+    {
+        cout << smaller[i] << "\n";
+    }
 
     cout << "larger than middle value: " << "\n";
-    for (int i = 0; i < y; i++) 
-    {  
-        cout << larger[i] << "\n";    
-    } 
+    for (int i = 0; i < y; i++)
+    {
+        cout << larger[i] << "\n";
+    }
 
     cout << "equal to the middle value: " << "\n";
-    for (int i = 0; i < z; i++) 
-    {  
-        cout << equal[i] << "\n";    
-    } 
+    for (int i = 0; i < z; i++)
+    {
+        cout << equal[i] << "\n";
+    }
 }
 
 int main ()
@@ -86,3 +86,4 @@ int main ()
 }
 
 % IIIIIIIIIIIIIIIII
+% 222222
