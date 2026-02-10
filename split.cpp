@@ -84,3 +84,5 @@ int main ()
     cin >> value;
     split_list(size, list, value);
 }
+
+% IIIIIIIIIIIIIIIII
